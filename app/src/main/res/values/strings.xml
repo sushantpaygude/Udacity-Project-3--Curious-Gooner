@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Udacity Project 3 - CuriousGooner</string>
+    <string name="button_select">Select</string>
+    <string name="question_one">Who holds the record for most goals scored by a player in the North London derby?</string>
+    <string name="question_one_option_A">Emanuel Adebayor</string>
+    <string name="question_one_option_B">Thierry Henry</string>
+    <string name="question_one_option_C">Ian Wright</string>
+    <string name="question_two">Arsenal was formerly known as:</string>
+    <string name="question_two_option_A">Wolves Arsenal</string>
+    <string name="question_two_option_B">Woolwich Arsenal</string>
+    <string name="question_two_option_C">Gunning Arsenal</string>
+    <string name="question_three">On the official Arsenal crest, the motto Victoria Concordia Crescit, is inscribed, but what does the other motto state which is contained within a smaller crest on the crest itself?</string>
+    <string name="question_three_option_A">Deus Per Omnia</string>
+    <string name="question_three_option_B">Semper Ubi Sub Ubi</string>
+    <string name="question_three_option_C">Si Vis Pacem Para Bellum</string>
+    <string name="question_four">Identify this Arsenal legend</string>
+    <string name="answer_four">Dennis Bergkamp</string>
+    <string name="question_five">What is the number of league titles won by Arsenal?</string>
+    <string name="answer_five">13</string>
+    <string name="question_six">Mark the players who captained for Arsenal.</string>
+    <string name="question_six_option_A">Tony Adams</string>
+    <string name="question_six_option_B">Cesc Fabregas</string>
+    <string name="question_six_option_C">Dennis Bergkamp</string>
+    <string name="question_seven">Mark the players with jersey no. 10</string>
+    <string name="question_seven_option_A">Roberto Pires</string>
+    <string name="question_seven_option_B">William Gallas</string>
+    <string name="question_seven_option_C">Jack Wilshere</string>
+    <string name="low_score">Poor performance Lad. A true Gooner should know more than this!</string>
+    <string name="average_score">Well done Lad. But you have much more to know about Arsenal.</string>
+    <string name="high_score">Amazing performance Gooner! Respect!</string>
+    <string name="title">Curious Gooner</string>
+</resources>
+
+
