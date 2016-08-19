@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
@@ -65,8 +65,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case 3:
                 intent=new Intent(this,ScreenFourActivity.class);
-                intent.putExtra("final_score",final_score);
-                intent.putExtra("question_number", question_number);
                 startActivity(intent);
                 break;
             case 4:
@@ -83,6 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case 7:
+                Toast.makeText(this,"Final Score:"+final_score,Toast.LENGTH_SHORT).show();
                 intent=new Intent(this,FinalScreenActivity.class);
                 startActivity(intent);
         }
