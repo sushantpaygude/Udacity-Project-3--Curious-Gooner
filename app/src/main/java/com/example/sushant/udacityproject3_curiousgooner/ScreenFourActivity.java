@@ -14,7 +14,7 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
     String user_answer;
     String actual_answer="Dennis Bergkamp";
     Bundle extras;
-   // Button answer_select2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,13 +24,6 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
         answer_select=(Button)findViewById(R.id.button_select);
 
         answer_select.setOnClickListener(this);
-
-//        extras=getIntent().getExtras();
-
-
-
-
-
     }
 
     @Override
@@ -40,13 +33,6 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
 
 
     }
-
-
-//    public void onClick1(View v)
-//    {
-//        checkAnswer(user_answer,actual_answer);
-//        Log.e("Here:", "" +user_answer);
-//    }
 
     public void checkAnswer(String user_answer,String actual_answer)
     {
@@ -59,7 +45,5 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
         question_number+=1;
         nextActivity(question_number);
 
-//        Log.e("final score", "" + final_score);
-//        Log.e("question:", "" + question_number);
     }
 }
