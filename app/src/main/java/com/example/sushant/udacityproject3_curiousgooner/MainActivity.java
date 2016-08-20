@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case 7:
-                Toast.makeText(this,"Final Score:"+final_score,Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Final Score:"+final_score,Toast.LENGTH_LONG).show();
                 intent=new Intent(this,FinalScreenActivity.class);
                 startActivity(intent);
         }
