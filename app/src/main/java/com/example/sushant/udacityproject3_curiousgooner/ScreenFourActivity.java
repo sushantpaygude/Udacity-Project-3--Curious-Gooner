@@ -22,7 +22,6 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
         setContentView(R.layout.activity_screenfour);
         editText=(EditText)findViewById(R.id.answer_box);
         answer_select=(Button)findViewById(R.id.button_select);
-
         answer_select.setOnClickListener(this);
     }
 
@@ -30,8 +29,6 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
     public void onClick(View v) {
         user_answer=editText.getText().toString();
         checkAnswer(user_answer, actual_answer);
-
-
     }
 
     public void checkAnswer(String user_answer,String actual_answer)
@@ -44,6 +41,5 @@ public class ScreenFourActivity extends MainActivity implements View.OnClickList
         Log.e("Here:", "" + final_score);
         question_number+=1;
         nextActivity(question_number);
-
     }
 }
